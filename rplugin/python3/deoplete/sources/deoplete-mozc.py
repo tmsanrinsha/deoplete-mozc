@@ -47,7 +47,7 @@ class Source(Base):
                 pass
 
     def get_complete_position(self, context):
-        m = re.search(r'[a-zA-Z0-9_\-.,]*$', context['input'])
+        m = re.search(r'[\x21-\x7E]+$', context['input'])
         return m.start() if m else -1
 
     def gather_candidates(self, context):
