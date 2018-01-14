@@ -1,6 +1,6 @@
 # deoplete-mozc
 
-![sonomasakada](sonomasakada.gif)
+![sonomasakada](https://user-images.githubusercontent.com/1057401/34917190-58e279aa-f986-11e7-98d0-d60c92bd71a7.gif)
 
 Mozc（Google日本語入力）の候補をVimの補完候補として出すプラグインです。
 
